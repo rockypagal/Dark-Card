@@ -1,0 +1,131 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    /* background-image:linear-gradient(to right,#0d1a2d,#0d1a2d); */
+     height:100vh;
+     background:#0d1a2d;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+    
+}
+
+.card{
+     width:fit-content;
+     height: fit-content;
+    padding:20px;
+    border: 3px ;
+    border-radius:5px;
+    background-color: #15273f;
+    box-shadow: 0px 0px 20px #15273f,0px 0px 20px black;
+    box-sizing: border-box;
+}
+
+.main{
+   
+    display: flex;
+    justify-content: center;
+}
+
+
+.photo{
+    width: fit-content;
+    height:215px;
+    border:5px ;
+    border-radius: 7px; overflow: hidden;
+}
+
+.photo img{
+    width:220px;
+    
+}
+.f{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    font-size: 16px;
+    margin:17px 0 17px 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.text p {
+    font-size: 13px;
+color:#8db2de;
+font-family: 'Poppins', sans-serif;
+ margin:17px 0 17px 0;
+}
+
+
+
+.data{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    margin:17px 0 17px 0;
+    font-size: 14px;
+}
+
+.d1 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.data img {
+    margin-right:10px ;
+    
+}
+
+.d1 p {
+    color:#00f5f4;
+    
+}
+
+.d2 p {
+    color:#8db2de;
+    
+}
+.d2 {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.man img{
+    width:23px;
+  
+
+}
+
+.man{
+    width:fit-content;
+    height: 23px;
+    border-radius: 50%;
+    border:1.5px solid white;
+}
+.jw{
+      margin-left: 10px;
+}
+.info{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    color: #8db2de;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+span{
+    color:white;
+}
+
+hr{
+    border: 1px solid #8db2de;
+    margin:5px 0 5px 0;
+    
+  }
